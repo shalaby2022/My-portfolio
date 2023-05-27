@@ -12,7 +12,6 @@ const App = () => {
         <Routes>
           <Route path="/" Component={Master} />
           <Route path="/home" Component={Master} />
-          {/* <Route path="/skills" Component={Skills} /> */}
         </Routes>
       </Router>
     </>
