@@ -5,17 +5,7 @@ import NavigatBar from "./components/NavigationBar";
 import Master from "./pages/Landing";
 
 const App = () => {
-  return (
-    <>
-      <Router>
-        <NavigatBar />
-        <Routes>
-          <Route path="/" Component={Master} />
-          <Route path="/home" Component={Master} />
-        </Routes>
-      </Router>
-    </>
-  );
+  return <Master />;
 };
 
 export default App;
